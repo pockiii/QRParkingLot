@@ -6,6 +6,15 @@ Install xampp and add this project to xampp/htdocs (root). You can now run this 
 Frontend: HTML, CSS, Javascript
 Backend: PHP, SQL, xampp
 
-Used:
+**Set-up DB:**
+Tablename: license_plates  
+Columns: lincensePlates (varchar), startTIme (datetime)
+
+Tablename: archive  
+Columns: lincensePlates (varchar), startTime (datetime), endTime (datetime)
+
+---
+
+Credit to:
 https://github.com/LazarSoft/jsqrcode
 http://goqr.me/
