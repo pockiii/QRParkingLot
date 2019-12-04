@@ -1,0 +1,89 @@
+html {
+	font-size: 62.5%;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	background-color: #d6d6d6;
+	outline: 0;
+	border: 0;
+}
+#result {
+	font-size: 22px;
+	margin: 0 15%;
+	position: absolute;
+}
+#warning {
+	color: #FF0000;
+	margin: 0 15%;
+	position: absolute;
+	bottom: 26%;
+}
+p {
+	margin: 0 10%;
+}
+p1 {
+	margin: 10px;
+	font-size: 12px;
+	position: absolute;
+	bottom: 0;
+}
+.card {
+	background-color: #f5f5f5;
+	height: 80rem;
+	width: 20%;
+	margin: 8rem 40%;
+	box-shadow: 4px 4px 4px grey;
+	position: absolute;
+}
+.card2 {
+	position: absolute;
+	background-color: #f5f5f5;
+	height: 80rem;
+	width: 20%;
+	margin: 8rem 120rem;;
+	box-shadow: 4px 4px 4px grey;
+}
+img {
+	margin: 15%;
+	width: 70%;
+}
+input, button{
+	border: 0;
+	outline: 0;
+	width: 80%;
+	margin: 6% 10%;
+	padding: 15px;
+}
+input {
+  background: white;
+  box-sizing: border-box;
+}
+button {
+  background: #4CAF50;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+button:hover,button:active,button:focus {
+  background: #43A047;
+}
+button.reset {
+	bottom: 0;
+	background: #FF0000;
+  color: #FFFFFF;
+  cursor: pointer;
+	position: absolute;
+	bottom: 10%;
+}
+button.reset:hover,button.reset:active,button.reset:focus {
+  background: #bd2f2f;
+}
+.hidden {
+    display: none;
+}
+#video-preview {
+	margin: 10%;
+    width: 80%;
+    height: 23rem;
+    background-color: #666;
+}
